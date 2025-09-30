@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product Emails E Commerce</title>
+    <link rel="stylesheet" href="product.css" />
+  </head>
+  <body>
+    <div class="wrap">
+      <p id="showemail"></p>
+      <button id="btn" onclick="LogOut()">Log Out</button>
+      <h4>E-Commerce Product Detail Page</h4>
+      <br />
+      <input type="text" id="title" placeholder="Title" />
+      <br />
+      <input type="text" id="price" placeholder="Price" />
+      <br />
+      <input type="text" id="savelinks" placeholder="Save Links" />
+      <br />
+      <textarea id="description" placeholder="Description"></textarea>
+      <br />
+      <button id="btn1" onclick="SubmitProduct()">Submit</button>
+      <br />
+      <button id="btn2" onclick="Update()">Update</button>
+      <br />
+      <button id="btn3" onclick="CancelData()">Cancel</button>
+
+      <div id="productcategory"></div>
+
+      <button id="btn4" onclick="Next()">Next</button>
+    </div>
+    <script src="product.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  </body>
+</html>

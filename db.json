@@ -1,0 +1,42 @@
+{
+  "users": [
+    {
+      "id": "06ac",
+      "email": "waleedpakistani@gmail.com",
+      "password": "1234"
+    },
+    {
+      "id": "e789",
+      "email": "waleedahmadpakistani@gmail.com",
+      "password": "0987"
+    }
+  ],
+  "products": [
+    {
+      "id": "3580",
+      "userId": "c620",
+      "title": "T-shirt",
+      "price": "1000.00",
+      "savelinks": "https://picsum.photos/200/300",
+      "description": "T-shirt is good cloth"
+    },
+    {
+      "id": "5962",
+      "userId": "06ac",
+      "title": "Jacket",
+      "price": "4000.00",
+      "savelinks": "https://picsum.photos/200/300",
+      "description": "Jackets is best cloth for winter."
+    }
+  ],
+  "customers": [
+    {
+      "id": "c620",
+      "name": "Waleed Ahmad",
+      "email": "waleedpakistani@gmail.com",
+      "address": "Bahria Town Street 5,House 77, Lahore",
+      "password": "12345678"
+    }
+  ],
+  "carts": []
+}

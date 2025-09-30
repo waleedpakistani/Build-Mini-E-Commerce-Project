@@ -1,0 +1,60 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.wrap {
+  background-color: white;
+  padding: 30px;
+  margin: 40px auto;
+  width: 320px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+#name {
+  width: 270px;
+  padding: 8px;
+  font-weight: bold;
+}
+#email {
+  margin-top: 10px;
+  width: 270px;
+  padding: 8px;
+  font-weight: bold;
+}
+#address {
+  margin-top: 10px;
+  width: 270px;
+  padding: 8px;
+  font-weight: bold;
+}
+#password {
+  margin-top: 10px;
+  width: 270px;
+  padding: 8px;
+  font-weight: bold;
+}
+#confirmpassword {
+  margin-top: 10px;
+  width: 270px;
+  padding: 8px;
+  font-weight: bold;
+}
+#btn {
+  padding: 10px 44px;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+  border-radius: 50px;
+  border: 1px solid black;
+}
+#signin {
+  font-weight: bold;
+  color: blue;
+  cursor: pointer;
+}
+#signin:hover {
+  color: purple;
+}
